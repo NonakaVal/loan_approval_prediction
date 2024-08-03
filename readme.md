@@ -40,14 +40,14 @@ In this project, I developed a machine learning model using Python to predict th
 ### charts
 
 Applicant Income Distribution
-[Imgur](https://i.imgur.com/QuKifYq.png?1)
+![Imgur](https://i.imgur.com/QuKifYq.png?1)
 
 
 Proportion of Loan Status by Property Area
-[Imgur](https://i.imgur.com/7QemEDd.png?1)
+![Imgur](https://i.imgur.com/7QemEDd.png?1)
 
 Correlation Heatmap
-[Imgur](https://i.imgur.com/hMshXSr.png?1)
+![Imgur](https://i.imgur.com/hMshXSr.png?1)
 
 
 ### Classification Report
