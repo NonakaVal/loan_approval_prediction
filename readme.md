@@ -1,22 +1,8 @@
 ## Loan Approval Prediction: Case Study
 
-In this project, I developed a machine learning model using Python to predict the approval status of loan applications. Using a dataset from Kaggle, the process involved data exploration, cleaning, visualization, handling outliers, and building a linear model with scikit-learn. The model's performance was evaluated using metrics like accuracy and F1 score, providing insights into its effectiveness in predicting loan approvals.
+In this project, I developed a machine learning model using Python to predict the approval status of loan applications. Using a [dataset](https://statso.io/loan-approval-prediction-case-study/) from [Kaggle](https://www.kaggle.com/), the process involved data exploration, cleaning, visualization, handling outliers, and building a linear model with scikit-learn. The model's performance was evaluated using metrics like accuracy and F1 score, providing insights into its effectiveness in predicting loan approvals.
 
-## Dataset Variables
-
-- Gender: Applicant's gender.
-- Married: Marital status of the applicant.
-- Dependents: Number of dependents.
-- Education: Level of education.
-- Self_Employed: Whether the applicant is self-employed.
-- ApplicantIncome: Applicant's income.
-- CoapplicantIncome: Income of the coapplicant.
-- LoanAmount: Amount of loan requested.
-- Loan_Amount_Term: Term of the loan in months.
-- Credit_History: Credit history status.
-- Property_Area: Location of the property.
-- Loan_Status: Outcome of the loan application.
-
+## General informations
 
 | Column        | Value         | Normalized Count |
 |---------------|---------------|------------------|
@@ -51,8 +37,26 @@ In this project, I developed a machine learning model using Python to predict th
 
 ---
 
+### charts
 
-[Imgur](https://i.imgur.com/7QemEDd.png?1)
+Applicant Income Distribution
 [Imgur](https://i.imgur.com/QuKifYq.png?1)
 
+
+Proportion of Loan Status by Property Area
+[Imgur](https://i.imgur.com/7QemEDd.png?1)
+
+Correlation Heatmap
+[Imgur](https://i.imgur.com/hMshXSr.png?1)
+
+
+### Classification Report
+
+|              | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| **Class 0**  | 0.90      | 0.47   | 0.62     | 55      |
+| **Class 1**  | 0.79      | 0.97   | 0.87     | 110     |
+| **Accuracy** |           |        | 0.81     | 165     |
+| **Macro avg**| 0.84      | 0.72   | 0.74     | 165     |
+| **Weighted avg** | 0.82   | 0.81   | 0.79     | 165     |
 
